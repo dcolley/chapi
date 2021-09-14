@@ -1,6 +1,6 @@
 # Companies House API (chapi)
 
-An Node.js library for the [Companies House BETA API](https://developer-specs.company-information.service.gov.uk/companies-house-public-data-api/reference)
+A Node.js library for the [Companies House BETA API](https://developer-specs.company-information.service.gov.uk/companies-house-public-data-api/reference)
 
 A work-in-progress ...
 
