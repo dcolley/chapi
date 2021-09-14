@@ -1,6 +1,17 @@
 # Companies House API (chapi)
 
-A work-in-progress 
+An Node.js library for the [Companies House BETA API](https://developer-specs.company-information.service.gov.uk/companies-house-public-data-api/reference)
+
+A work-in-progress ...
+
+## Purpose
+
+I use this library to investigate relationships between Companies and Officers as part of the due diligence process.
+The aim is - starting with a Company or Office - to search recursively and build a network, using FOAF or a similar graph.
+
+## API Key
+
+You will need to create an account on companies house and get an API Key
 
 ## How to use this repo
 
