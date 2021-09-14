@@ -1,9 +1,10 @@
 const CHAPI = require("../index")
 
-let apiKey = "f62f9cc3-1748-4c8b-85e0-15f396a81fac"
-// let companyID = "01603201"
-let officerID = "kWmw46zlqWMhkExvfcnABcEhBmM"
-let q = "Derek William Colley"
+const config = require("./config.json");
+let apiKey = config.apiKey
+// let companyID = config.companyID
+// let officerID = config.officerID
+let q = config.search
 
 const chapi = new CHAPI(apiKey)
 

@@ -7,9 +7,11 @@ var cq = {}
 // list of officers to process
 var oq = []
 
-var apiKey = "f62f9cc3-1748-4c8b-85e0-15f396a81fac"
-// start with a company...
-var companyNumber = "11310159" // TWL
+const config = require("./config.json");
+let apiKey = config.apiKey
+let companyNumber = config.companyID
+// let officerID = config.officerID
+// let q = config.search
 
 async function handleOfficers(ol) {
     for(var i=0; i<ol.length; i++) {

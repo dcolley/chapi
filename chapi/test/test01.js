@@ -1,7 +1,8 @@
 const CHA = require('companies-house-api-es6');
 
-let apiKey = "f62f9cc3-1748-4c8b-85e0-15f396a81fac"
-let companyID = "11310159"
+const config = require("./config.json");
+let apiKey = config.apiKey
+let companyID = config.companyID
 
 const cha = new CHA(apiKey);
 
