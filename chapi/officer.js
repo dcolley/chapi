@@ -55,8 +55,7 @@ class Officer {
             method: 'GET',
             // baseURL: 'https://api.companieshouse.gov.uk',
             baseURL: "https://api.company-information.service.gov.uk",
-            // url: `/officers/${officerNumber}/appointments`,
-            url: '/officers/nUcpcZD2V5GfYIWSE1Ct6URfyDE/appointments',
+            url: `/officers/${officerNumber}/appointments`,
             auth:{
                 username: this.apiKey,
                 password: ''
